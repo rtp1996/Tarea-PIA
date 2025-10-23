@@ -64,9 +64,8 @@ if __name__ == "__main__":
     except:
         print("Usando archivo existente...")
 
-    # Usar nuestra función
     print(f"Buscando palabras: {palabras_buscar}")
     resultado = frecuencia_palabras(palabras_buscar, ruta_archivo)
 
-    # Mostrar resultados
     mostrar_frecuencias(resultado)
+
